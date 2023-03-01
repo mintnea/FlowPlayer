@@ -11,6 +11,10 @@
 		254EC85B29AFD64E00E45922 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254EC85A29AFD64E00E45922 /* ContentView.swift */; };
 		254EC85D29AFD64F00E45922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254EC85C29AFD64F00E45922 /* Assets.xcassets */; };
 		254EC86029AFD64F00E45922 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254EC85F29AFD64F00E45922 /* Preview Assets.xcassets */; };
+		254EC86729AFD66B00E45922 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254EC86629AFD66B00E45922 /* TabBar.swift */; };
+		254EC86A29AFD98600E45922 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254EC86929AFD98600E45922 /* BlurView.swift */; };
+		254EC86C29AFDADE00E45922 /* MiniPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254EC86B29AFDADE00E45922 /* MiniPlayer.swift */; };
+		254EC86E29AFDE0200E45922 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254EC86D29AFDE0200E45922 /* Search.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		254EC85A29AFD64E00E45922 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		254EC85C29AFD64F00E45922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		254EC85F29AFD64F00E45922 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		254EC86629AFD66B00E45922 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		254EC86929AFD98600E45922 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		254EC86B29AFDADE00E45922 /* MiniPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayer.swift; sourceTree = "<group>"; };
+		254EC86D29AFDE0200E45922 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,7 @@
 				254EC85A29AFD64E00E45922 /* ContentView.swift */,
 				254EC85C29AFD64F00E45922 /* Assets.xcassets */,
 				254EC85E29AFD64F00E45922 /* Preview Content */,
+				254EC86829AFD73900E45922 /* View */,
 			);
 			path = FlowPlayer;
 			sourceTree = "<group>";
@@ -65,6 +74,17 @@
 				254EC85F29AFD64F00E45922 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		254EC86829AFD73900E45922 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				254EC86629AFD66B00E45922 /* TabBar.swift */,
+				254EC86929AFD98600E45922 /* BlurView.swift */,
+				254EC86B29AFDADE00E45922 /* MiniPlayer.swift */,
+				254EC86D29AFDE0200E45922 /* Search.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				254EC86729AFD66B00E45922 /* TabBar.swift in Sources */,
+				254EC86A29AFD98600E45922 /* BlurView.swift in Sources */,
 				254EC85B29AFD64E00E45922 /* ContentView.swift in Sources */,
+				254EC86E29AFDE0200E45922 /* Search.swift in Sources */,
+				254EC86C29AFDADE00E45922 /* MiniPlayer.swift in Sources */,
 				254EC85929AFD64E00E45922 /* FlowPlayerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,7 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FlowPlayer/Preview Content\"";
-				DEVELOPMENT_TEAM = K952D9T4NZ;
+				DEVELOPMENT_TEAM = J93B3U7TH7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -280,7 +304,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.andreagglez99.FlowPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreagglez99.FlowPlayerr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -296,7 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FlowPlayer/Preview Content\"";
-				DEVELOPMENT_TEAM = K952D9T4NZ;
+				DEVELOPMENT_TEAM = J93B3U7TH7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -309,7 +333,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.andreagglez99.FlowPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreagglez99.FlowPlayerr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
